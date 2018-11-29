@@ -980,3 +980,60 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+
+
+
+
+
+
+
+
+/* Product Section
+--------------------------------*/
+#product {
+  background: #fff;
+  padding: 80px 0;
+  float: center;
+}
+#product figure {
+  float: center;
+}
+#product figure img {
+  height: 300px;
+}
+#product .section-title{
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+#product section {
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 150%;
+  text-align: center;
+  float: center;
+  width: 300px;
+  color: #333;
+}
+#product .productBtn {
+  background: #36a9ea;
+  background: -moz-linear-gradient(top, #36a9ea 0%, #127fd2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#36a9ea), color-stop(100%,#127fd2));
+  background: -webkit-linear-gradient(top, #36a9ea 0%,#127fd2 100%);
+  background: -o-linear-gradient(top, #36a9ea 0%,#127fd2 100%);
+  background: -ms-linear-gradient(top, #36a9ea 0%,#127fd2 100%);
+  background: linear-gradient(top, #36a9ea 0%,#127fd2 100%);
+  border: 1px solid #00599d;
+  color: #fff;
+  padding: 8px 20px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .1), inset 0px 1px 0px 0px rgba(250, 250, 250, .3);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .1), inset 0px 1px 0px 0px rgba(250, 250, 250, .3);
+  text-shadow: 0px 1px 1px #156cc4;
+  filter: dropshadow(color=#156cc4, offx=0, offy=1);
+  font-size: 10pt; 
+}
+
